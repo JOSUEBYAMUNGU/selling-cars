@@ -1,0 +1,112 @@
+
+.forheader
+{
+    background-image: url(pictures/b5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .marqueheader
+{
+    background-image: url(pictures/Les-9-nouvelles-marques-auto-en-2022.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .forguichet
+    {
+        background-image: url(b1\ -\ Copie.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .foressaie
+        {
+            background-color: rgb(78, 50, 14);
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+            .forcontact
+            {
+                background-color: rgb(78, 50, 14);
+                background-size: cover;
+                background-repeat: no-repeat;
+                }
+nav
+{
+border: solid white;
+background-color:rgb(78, 50, 14);
+}
+ul
+{
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding-top: 20px;
+}
+a
+{
+text-decoration: none;
+color: white;
+
+
+}
+a:hover
+{
+
+color: rgb(247, 142, 5);
+border: solid rgb(247, 142, 5);
+border-radius: 20px;
+padding: 13px;
+border-top: none;
+border-bottom: none;
+}
+footer
+{
+border: solid wheat;
+background-color: antiquewhite;
+text-align: center;
+}
+.bloc
+{
+display: flex;
+}
+.sousbloc1
+{
+
+}
+
+.sousbloc2
+{
+
+}
+.sousbloc3
+{
+
+}
+.sousbloc4
+{
+
+}
+.sousbloc5
+{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }}
+ .photo{
+    width:300px ; 
+    height:200px;
+    }
+    .photo:hover
+    {
+        width:350px ; 
+        height:250px;
+        }
+
+.sousbloc4
+{
+
+}
