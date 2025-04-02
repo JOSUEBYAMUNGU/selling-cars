@@ -11,15 +11,15 @@
      <div class="forguichet">
         <nav>
             
-             <ul>
+             <ul class="navul">
                
-                <img src="pictures/LOGOV" width="50px" height="50px">
-                 <li><a href="index.html"> accueil </a></li>
-                 <li> <a href="marque.html"> marques</a></li>
-                 <li> <a href="GUICHET.html"> guichet d'achat </a></li>
-                 <li> <a href="essai.html"> essiae</a></li>
-                 <li> <a href="contact.html"> contact</a></li>
-                 <li> <a href="about.html"> about us</a></li>
+                <img src="pictures/autologo.png" width="50px" height="50px">
+                <li><a href="index.html"class="nava" > accueil </a></li>
+                <li> <a href="marque.html" class="nava" > marques</a></li>
+                <li> <a href="GUICHET.html" class="nava" > guichet d'achat </a></li>
+                <li> <a href="essai.html" class="nava" > essiae</a></li>
+               <li> <a href="contact.html" class="nava" > contact</a></li>
+                <li> <a href="about.html" class="nava" > about us</a></li>
             </ul>
         </nav>
     </br>
@@ -27,17 +27,94 @@
         <div style="text-align: center;">
             <p style="font-size: 50px;color: rgb(248, 247, 247); text-shadow: 1px 1px 1px black;">méthodes d'achat </p>
             </div>
-        </br>
-    </br>
-</br>
-</br>
-
-            
+</div>
+         
     <!--end of header-->
 
     
     <!---->
-    <!---->
+<p>Chez AUTO car nous disposons des moyens d'achat </p>
+    
+    <!--body-->
+    <form method="post" action=""class="form" >
+        <label for="name">name</label>
+            <input type="name" id="name"required class="name">
+        </br>
+        <label for="postname">  post name</label>
+            <input type="name" id="postname"required class="post"> </br>
+          
+              <!--password
+           <label for="password">password</label>
+           <input type="password" id="password" required class="pass"><br />
+           -->
+           <!--mail-->
+           <label for="mail">mail</label>
+        <input type="email" name="email" required class="mail"> </br>
+            <!--sexe-->
+            <label for="sexe">sexe</label>
+       <select name="sexe" id="sexe" class="sexe">
+           <option value="homme">homme</option>
+           <option value="femme">femme</option>
+       </select>
+    </br>
+
+    <!--ville-->
+       <label for="ville" >votre ville</label>
+       <select name="ville" id="ville" class="ville" >
+           <option value="bukavu">bukavu</option>
+           <option value="goma">goma</option>
+           <option value="beni">beni</option>
+           <option>autres</option>
+       </select>
+       <br />
+         <!--tel-->
+         <label for="tel">numero tél</label>
+         <input type="tel" id="tel" required class="tel"> <br />
+
+         <label for="marque">marque commandé</label>
+         <input type="text" id="marque"required class="marque">
+       
+
+       <!--Age-->
+       <!--
+       <p >
+        Veuillez indiquer la tranche d'âge dans laquelle vous vous situez 
+       :<br />
+       
+        <input type="radio" name="age" value="5-10ans" id="a" />
+        <label for="a">5-10ans</label><br />
+        <input type="radio" name="age" value="10-15ans" id="b"/> 
+        <label for="b">10-15 ans</label><br />
+        <input type="radio" name="age" value="15-18ans" id="c"/>
+        <label for="c">15-18ans ans</label><br />
+        <input type="radio" name="age" value="plus18" id="d" /> 
+        <label for="d">plus 18ans</label>
+    
+        </p>
+    
+        -born day-
+        <label for="date">date de livraison</label>
+        <input type="date" id="date" required class="born"><br />
+    -->   
+
+        <!--profession-->
+        <p>
+            Cochez votre profession:<br />
+            <input type="checkbox" name="designer" id="designer" class="profession">
+             <label for="designer">designer</label><br />
+            <input type="checkbox" name="informaticien" id="informaticien" > 
+            <label for="informaticien">informaticien</label><br />
+            <input type="checkbox" name="photographe" id="photographe" > 
+            <label for="epinards">photographe</label><br />
+            <input type="checkbox" name="autres" id="autres"> 
+            <label for="autres">autres</label><br />
+
+         
+
+           <!--submit-->
+           <input type="submit" id="submit" class="submit" required>
+        </form>
+    
     <!---->
     <!---->
     <!---->
@@ -54,6 +131,7 @@
     <!---->
     <!---->
     <!--footer for presentation page-->
+</br>
     <footer>
         <p>copyright©2025 AUTOCAR</p>
     </footer>

@@ -1,112 +1,580 @@
 
+
 .forheader
 {
-    background-image: url(pictures/b5.jpg);
+    background-image: url(pictures/b6.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 10%;
     }
+    nav
+    {
+    border: solid white;
+    background-color:rgb(78, 50, 14);
+    }
+    .navul
+    {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+    }
+    .nava
+    {
+    text-decoration: none;
+    color: white;
+    
+    
+    }
+    .nava:hover
+    {
+    
+    color: rgb(247, 142, 5);
+    border: solid rgb(247, 142, 5);
+    border-radius: 20px;
+    padding: 13px;
+    border-top: none;
+    border-bottom: none;
+    }
+
+
+
+
+
+
+
+
+
+.boutonachat
+{
+    color: rgb(0, 0, 0); 
+    border: solid  rgb(0, 0, 0);
+     background-color: rgb(200, 200, 200); 
+     border-radius: 50px; 
+     font-size: 20px;
+     margin-left: 45%;
+     margin-bottom: 50%;
+     padding: 10PX;
+     text-decoration: none;
+    }
+    
+.boutonachat:hover
+{
+color: white;
+background-color: black;
+border-radius: 50px;
+}
+.bloc
+{
+display: flex;
+
+
+}
+.sousbloc
+{
+    margin-left: 2%;
+}
+
+.sousbloc2
+{
+    margin-left: 2%;
+}
+.sousbloc3
+{
+    margin-left: 2%;
+}
+.sousbloc4
+{
+    margin-left: 2%;
+}
+.sousbloc5
+{
+   
+    margin-left: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
+    
     .marqueheader
 {
     background-image: url(pictures/Les-9-nouvelles-marques-auto-en-2022.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 8%;
     }
-    .forguichet
-    {
-        background-image: url(b1\ -\ Copie.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        }
-        .foressaie
-        {
-            background-color: rgb(78, 50, 14);
-            background-size: cover;
-            background-repeat: no-repeat;
-            }
-            .forcontact
-            {
-                background-color: rgb(78, 50, 14);
-                background-size: cover;
-                background-repeat: no-repeat;
-                }
-nav
-{
-border: solid white;
-background-color:rgb(78, 50, 14);
-}
-ul
-{
-display: flex;
-justify-content: space-around;
-list-style: none;
-padding-top: 20px;
-}
-a
-{
-text-decoration: none;
-color: white;
+    .marquebloc {
+        display: flex;
+    }
+    .marquebloc1 {
+        border: solid black;
+        margin-top: 5%;
+      padding-bottom: 10%;
+        font-size: 18px;
+        width: 100%;
+        border: solid beige;
+        background-color: beige;
+        margin-bottom: 20%;
+        
+        
+    }
+    .marquerecherche {
+        margin-left: 85%;
+        border: solid 1px black;
+        padding: 10px;
+        
+    }
+    .bloc1color {
+        color: rgb(78, 50, 14);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        text-decoration: none;
+       
+    }
+    .bloc1color:hover
+     {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        border: solid 2px rgb(78, 50, 14) ;
+        border-radius: 20px;
+        padding: 10px;
+        border-left: none;
+        border-right: none;
+    }
+    .imagemarque
+     {
+        
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: -50%;
+        display: flex;
+        flex-wrap: wrap; 
+    justify-content: space-around;
+    
+    }
+    .photo1
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo2
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo3
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo4
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo5
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo6
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo7
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo8
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo9
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo10
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo11
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo12
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo13
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo14
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo15
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo16
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo17
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo18
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo19
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo20
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo21
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo22
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo23
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo24
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo25
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo26
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo27
+     {
+        text-align: center;
+        border: solid beige;
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .photo28
+     {
+        text-align: center;
+        
+        background-color: beige;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .marquebouton
+     {
+        color: black;
+        border: solid 5px rgb(255, 253, 253);
+         background-color: beige;
+         padding: 5px;
+         border-radius: 15px;
+         text-decoration: none;
+         margin-right: 5%;
+         margin-top: 10%;
+    
+    }
+    .marquebouton:hover
+     {
+        color: rgb(255, 254, 254);
+        border: solid 5px beige;
+         background-color: rgb(1, 1, 1);
+         padding: 10px;
+       
+    }
+    .bb{
+        border: solid 1px black;
+    }
+    
+    .marquebloc2 {
+        
+        padding-left: 2%;
+        padding-top: 1%;
+        margin-left: 4%;
+        padding-right: 0%;
+       margin-bottom: 5%;
+    }
+    .marquebloc3 {
+        
+        padding: 2%;
+        padding-top: 1%;
+        margin-left: 4%;
+    }
 
 
-}
-a:hover
-{
 
-color: rgb(247, 142, 5);
-border: solid rgb(247, 142, 5);
+
+
+
+
+
+
+
+
+
+.forguichet
+ {
+background-image: url(pictures/b1\ -\ Copie.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-bottom: 10%;
+ }
+
+ body
+{
+    color: rgb(255, 253, 253);
+    background-color: rgb(252, 248, 248);
+  }
+  .form
+  {
+    border: solid rgb(80, 52, 52);
+  background-color: rgb(85, 60, 60) ;
+  margin-left: 30%;
+  width: 30%;
+  margin-top: 10%;
+  padding: 2%;
+  border-radius: 50px;
+  font-size: 20px;
+  }
+  .submit
+   {
 border-radius: 20px;
-padding: 13px;
-border-top: none;
-border-bottom: none;
+margin-left: 40%;
+margin-bottom: 10%;
+font-size: 20px;
+
+
+  }
+  .pass
+   {
+margin-left: 5%;
+width: 36%;
+margin-left: 7%;
+  }
+  
+  .tel
+  {
+
+margin-left: 5%;
+
+ }
+.profession
+{
+
 }
+.born 
+{
+
+}
+
+.mail
+{
+width: 30%;
+
+}
+.ville
+{
+
+}
+.sexe 
+{
+margin-left: 10%;
+}
+.post
+{
+
+}
+.name
+{
+margin-left: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.foressaie
+{
+background-color: rgb(78, 50, 14);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.forcontact
+{
+background-color: rgb(78, 50, 14);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer
 {
 border: solid wheat;
 background-color: antiquewhite;
 text-align: center;
 }
-.bloc
+.linkfooter
 {
 display: flex;
-}
-.sousbloc1
-{
-
-}
-
-.sousbloc2
-{
-
-}
-.sousbloc3
-{
-
-}
-.sousbloc4
-{
-
-}
-.sousbloc5
-{
-    animation: animate 1s linear infinite;
-}
-@keyframes animate{
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }}
- .photo{
-    width:300px ; 
-    height:200px;
-    }
-    .photo:hover
-    {
-        width:350px ; 
-        height:250px;
-        }
-
-.sousbloc4
-{
+text-align: center;
+justify-content: space-around;
+width: 20%;
+margin-left: 40%;
 
 }
